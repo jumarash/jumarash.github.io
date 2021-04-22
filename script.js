@@ -83,7 +83,8 @@ function contentNav(e){
     var href = $(this).attr("href");
     $("#content").load("modules/"+href);
 
-    $("#nav_left").fadeTo(0, 1);
+    //$("#nav_left").fadeTo(0, 1);
+    
      
 }
 
