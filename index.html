@@ -1,75 +1,128 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="script.js"></script>
 
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Application Website</title>
-  </head>
-  <body>
+</head>
+<body>
+    <!--================ nav section starting ======================-->
+    <header class="background"> 
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+        
+        <a class="navbar-brand" href="#" style="font-weight: 500; color: white; font-size: 27px;">Rsj<span style="color: crimson;font-weight: 500;">.portfolio</span> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          <ul class="navbar-nav mr-auto justify-content-end w-100" >
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">My work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+        
+           
+          </ul>
+          
+        </div>
+        </div>
+      </nav>
+    
+    <!--================== nav section ends==================== -->
+    <!--================== Start Main area======================-->
+<main class="site-main" > 
 
-    <div id="main"> 
-        <div id="header"> 
-
-            <nav class="navbar navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button id="nav_left" class="btn btn-outline-dark">
-                        <i class="bi bi-arrow-left"></i>
-                    </button>
-                   <a id="nav_title" class="navbar-brand m-0 fw-bold">
-                       Home
-                   </a>
-                    <button id="nav_right" class="btn btn-outline-dark" >
-                        <i class="bi bi-three-dots"></i>
-                    </button>
-                  
-                </div>
-            </nav>
+    <!--================== End Banner Area======================-->
+    <sectin class="site-banner">
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-6 col-md-12 site-title" >
+            <h3 class="title-text"> Hello, my name is</h3>
+            <h1 class="title-text text-uppercase"> Rashid Juma</h1>
+            <h4 class="title-text text-uppercase">and I'm an <span style="color: crimson;">Interaction Designer </span> </h4>
+        <div class="site-button">
+          
+        <div class="d-flex flex-rowf lex-wrap">
+             <button type="button" class="btn button primary-button mr-4 text-uppercase">hire me</button>
         </div>
 
-    </div>
-
-<div id="content">  
+        </div>
+        </div>
+        </div>
+    </sectin>
+    <!--================== End Banner Area======================-->
     
+    </main>
+    <!--================== End Main area======================-->
 
+</header>
+<!--================== Start Nav section======================-->
+
+<!--============== about section start ==================-->
+<section class="about" id="about">
+  <div class="max-width">
+      <h2 class="title">About me</h2>
+      <div class="about-content">
+          <div class="column left">
+              <img src="https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80" alt="">
+          </div>
+          <div class="column right">
+              <div class="text">I'm Rashid And I'm an <span>Interaction Designer</span></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet lobortis turpis. Aenean molestie venenatis ante vel euismod. Pellentesque vitae accumsan felis. Sed est dui, posuere congue ex lobortis, elementum consectetur felis. Ut ante lacus, sollicitudin sed faucibus viverra, pulvinar in ipsum. Mauris tincidunt urna orci, nec tristique mi placerat vel. Sed vitae congue velit. Pellentesque dolor justo, accumsan quis auctor ac, vehicula eget leo. Aenean ultrices non ligula eget feugiat. In lobortis maximus lorem, in laoreet sapien facilisis vitae. Nullam risus quam, congue eget nulla ut, iaculis semper nibh. Nunc eleifend vestibulum magna ac posuere.</p>
+              <a href="#">Download Resume</a>
+      
+          </div>
+  </div>
 </div>
+</section>
+<!--================== About Section End======================-->
+ 
 
-<div id="nav" class="bg-light border-top position-fixed" style="bottom: 0; width: 100%;"> 
-
-    <nav class="nav nav-pills nav-justified">
-        <a class="nav-link px-0 text-dark" href="home.html">
-            <i class="bi bi-house-door"></i>
-            <h6 class="small m-0">Home</h6>
-        </a>
-        <a class="nav-link px-0 text-dark" href="search.html">
-            <i class="bi bi-search"></i>
-            <h6 class="small m-0">Search</h6>
-        </a>
-        <a class="nav-link px-0 text-dark" href="faves.html">
-            <i class="bi bi-heart"></i>
-            <h6 class="small m-0">Faves</h6>
-        </a>
-        <a class="nav-link px-0 text-dark" href="profile.html">
-            <i class="bi bi-person"></i>
-            <h6 class="small m-0">Profile</h6>
-        </a>
-      </nav>
-
-</div>
-
-    </div>
-
-    
-  </body>
+<!-- boostrap links -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"              integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<!-- boostrap links -->
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
